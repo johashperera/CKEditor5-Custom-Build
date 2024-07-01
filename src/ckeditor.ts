@@ -46,6 +46,7 @@ import { Base64UploadAdapter } from "@ckeditor/ckeditor5-upload";
 import { MentionCustomize } from "./mention-customize-plugin";
 import { MentionDeletePlugin } from "./mention-delete-plugin";
 import { DisableToolbar } from "./disable-toolbar-plugin";
+import { MentionCustom } from "./mention-custom-plugin";
 
 // You can read more about extending the build with additional plugins in the "Installing plugins" guide.
 // See https://ckeditor.com/docs/ckeditor5/latest/installation/plugins/installing-plugins.html for details.
@@ -90,6 +91,7 @@ class Editor extends ClassicEditor {
     MentionCustomize,
     MentionDeletePlugin,
     DisableToolbar,
+    MentionCustom,
   ];
 
   public static override defaultConfig: EditorConfig = {
